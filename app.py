@@ -17,6 +17,7 @@ import requests
 import json
 from langchain.schema import SystemMessage
 from fastapi import FastAPI
+import pickle
 
 load_dotenv()
 browserless_api_key = os.getenv("BROWSERLESS_API_KEY")
@@ -26,6 +27,7 @@ serper_api_key = os.getenv("SERP_API_KEY")
 
 
 def search(query):
+    # print(f"searching with {browserless_api_key}")
     url = "https://google.serper.dev/search"
 
     payload = json.dumps({
@@ -185,9 +187,26 @@ agent = initialize_agent(
 
 #         st.info(result['output'])
 
+def write_to_textfile(text, filename): # remember to add txt
+    with open(filename, 'a') as f:
+        f.write(text)
 
-# if __name__ == '__main__':
-#     main()
+def write_pickle(objects, filename): # remember to add .pkl
+    with open(filename, 'wb') as handle:
+        pickle.dump(objects, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+def load_pickle(filename): # remember to add .pkl, loaded objects may be a list of objects
+    with open(filename, 'rb') as handle:
+        b = pickle.load(handle)
+    return b
+
+if __name__ == '__main__':
+    query = "What does Prof Byron Boots do, and what are his most recent papers?"
+    result = agent({"input": query})
+    answer = result['output']
+    write_pickle(agent, 'agent_1.pkl')
+    write_to_textfile(query, 'query_1.txt')
+    write_to_textfile(answer, 'query_1.txt')
 
 
 # 5. Set this as an API endpoint via FastAPI

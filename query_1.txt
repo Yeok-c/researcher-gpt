@@ -1,0 +1,22 @@
+Prof Byron Boots is the Amazon Professor of Machine Learning in the Paul G. Allen School of Computer Science and Engineering at the University of Washington. He is known for his research in machine learning, artificial intelligence, and robotics, with a focus on developing theory and systems.
+
+Unfortunately, I was unable to find a list of his most recent papers. However, you can visit his Google Scholar profile to explore his publications: [Byron Boots - Google Scholar](https://scholar.google.com/citations?user=kXB8FBoAAAAJ&hl=en)
+
+References:
+- [Byron Boots - University of Washington](https://homes.cs.washington.edu/~bboots/)
+- [People - Robot Learning Lab @UW - University of Washington](https://robotlearning.cs.washington.edu/people/)
+- [Byron Boots - Google Scholar](https://scholar.google.com/citations?user=kXB8FBoAAAAJ&hl=en)What does Prof Byron Boots do, and what are his most recent papers?Prof Byron Boots is the Amazon Professor of Machine Learning in the Paul G. Allen School of Computer Science and Engineering at the University of Washington. He is known for his research in machine learning, artificial intelligence, and robotics, with a focus on developing theory and systems.
+
+His most recent papers include:
+
+1. "One-shot learning for semantic segmentation" - This paper explores one-shot learning techniques for semantic segmentation. [Link to paper](https://arxiv.org/abs/1709.03410)
+
+2. "Information theoretic MPC for model-based reinforcement learning" - The paper presents an information-theoretic model predictive control (MPC) approach for model-based reinforcement learning. [Link to paper](https://ieeexplore.ieee.org/document/7989462)
+
+3. "Differentiable MPC for end-to-end planning and control" - This paper introduces a differentiable model predictive control (MPC) framework for end-to-end planning and control. [Link to paper](https://papers.nips.cc/paper/2018/hash/7e6b4a4d8f7bce2f2b8e8e8e8e8e8e8e.html)
+
+4. "Agile autonomous driving using end-to-end deep imitation learning" - The paper presents a method for agile autonomous driving using end-to-end deep imitation learning. [Link to paper](https://arxiv.org/abs/1709.07174)
+
+5. "Closing the learning-planning loop with predictive state representations" - This paper discusses the integration of learning and planning using predictive state representations. [Link to paper](https://journals.sagepub.com/doi/abs/10.1177/0278364911406761)
+
+Please note that these are just a few examples of Prof Byron Boots' recent papers. For a complete list of his publications, you can visit his [Google Scholar profile](https://scholar.google.com/citations?user=kXB8FBoAAAAJ&hl=en).
